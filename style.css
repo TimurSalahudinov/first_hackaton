@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+  /* container */
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    border-bottom: 2px dotted black;
+  }
+  /* container */
+  /* navbar start*/
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0;
+  }
+  
+  .links a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  .links {
+    width: 382px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 40px;
+  }
+  /* navbar end*/
+  /* section start */
+  .about {
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    border: 2px dotted black;
+    border-top: none;
+  }
+  
+  .about_img {
+    width: 100%;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+  }
+
+  #file {
+    width: 100%;
+    height: 40px;
+  }
+
+  .skill {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 2px dotted black;
+    border-top: none;
+    border-left: none;
+
+    }
+
+   .skill label {
+font-size: 1.5em;
+
+   }
+   
+   .hobby {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px dotted black;
+    border-top: none;
+   }
+    .fotos img{
+    width: 100%;
+    } 
+ /*  .foto2 {
+    display: none;
+   }
+   .foto3 {
+    display: none;
+   }
+      */
+      
+   
+    
+    
+  /* section end */
